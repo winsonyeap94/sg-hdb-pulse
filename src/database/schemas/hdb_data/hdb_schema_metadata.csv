@@ -1,0 +1,22 @@
+TABLE;COLUMN;DATA_TYPE;DESCRIPTION;PRIMARY_KEY
+HDB_RESALE_PRICE;ID;INTEGER;Running auto-increment key for table;N
+HDB_RESALE_PRICE;MONTH;TEXT;Year-Month of the resale price data;Y
+HDB_RESALE_PRICE;TOWN;TEXT;Town of the HDB flat;Y
+HDB_RESALE_PRICE;FLAT_TYPE;TEXT;Type of the HDB flat (e.g., 2 ROOM, 3 ROOM, 4 ROOM);Y
+HDB_RESALE_PRICE;BLOCK;TEXT;Block number of the HDB flat;Y
+HDB_RESALE_PRICE;STREET_NAME;TEXT;Street name of the HDB flat;Y
+HDB_RESALE_PRICE;STOREY_RANGE;TEXT;Storey range of the HDB flat;Y
+HDB_RESALE_PRICE;FLOOR_AREA_SQM;FLOAT;Floor area of the HDB flat in square meters;Y
+HDB_RESALE_PRICE;FLAT_MODEL;TEXT;Model of the HDB flat (e.g., Simplified, Improved, New Generation);Y
+HDB_RESALE_PRICE;LEASE_COMMENCE_DATE;INTEGER;Year when the HDB lease started;Y
+HDB_RESALE_PRICE;REMAINING_LEASE;TEXT;Remaining lease of the HDB in years and months;N
+HDB_RESALE_PRICE;RESALE_PRICE;FLOAT;Resale price for the HDB unit;N
+HDB_RESALE_PRICE;UPDATE_DT;TEXT;Date when the data was last updated;N
+HDB_RENTAL_PRICE;ID;INTEGER;Running auto-increment key for table;N
+HDB_RENTAL_PRICE;RENT_APPROVAL_DATE;TEXT;Year-Month of the rental start date;Y
+HDB_RENTAL_PRICE;TOWN;TEXT;Town of the HDB flat;Y
+HDB_RENTAL_PRICE;BLOCK;TEXT;Block number of the HDB flat;Y
+HDB_RENTAL_PRICE;STREET_NAME;TEXT;Street name of the HDB flat;Y
+HDB_RENTAL_PRICE;FLAT_TYPE;TEXT;Type of the HDB flat (e.g., 2 ROOM, 3 ROOM, 4 ROOM);Y
+HDB_RENTAL_PRICE;MONTHLY_RENT;FLOAT;Monthly rent;N
+HDB_RENTAL_PRICE;UPDATE_DT;TEXT;Date when the data was last updated;N
